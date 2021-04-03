@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def lottery_list(request):
+    return render(request, 'lottery/lottery_list.html', {})
